@@ -466,7 +466,7 @@ To add a new tag, implement a class that returns a map of String to Proccessors.
 see [Service Loading](https://docs.oracle.com/javase/8/docs/api/java/util/ServiceLoader.html)
 
 ```Java
-public interface streamprocessor.TagProvider {
+public interface io.github.jristretto.linesprocessor.TagProvider {
     
     /**
      * A plugin should provide a map of instruction names and functions
